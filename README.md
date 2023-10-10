@@ -55,10 +55,6 @@ The script logs keystrokes and active window titles to a text file named with th
 
 Please use this script responsibly and ensure that you comply with all applicable laws and regulations. Monitoring computer activity should be done with the consent of the user and for legitimate purposes.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - [pynput](https://github.com/moses-palmer/pynput) - Python library for controlling and monitoring input devices.
