@@ -35,7 +35,7 @@ This Python script monitors keystrokes, captures active window titles, and takes
 3. Run the script:
 
    ```bash
-   python monitor_activity.py
+   python Klogger.pyw
    ```
 
    The script will start monitoring keystrokes and active windows, logging the activity to a text file and capturing screenshots of specified browsers.
