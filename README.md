@@ -1,7 +1,7 @@
 # Keystroke and Screen Activity Monitoring Script
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue.svg)
-![License](https://img.shields.io/badge/open-source.svg)
+![License](https://img.shields.io/badge/License-open-source.svg)
 
 This Python script monitors keystrokes, captures active window titles, and takes screenshots of specific browsers. It is designed for various purposes, such as computer usage tracking or debugging.
 
